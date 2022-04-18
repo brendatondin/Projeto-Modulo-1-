@@ -1,0 +1,40 @@
+ Mais um ano em Howgwarts sob o comando de Dolores Umbridge.
+A escola esta, segundo alunos e professores, com a pior diretora. 
+Muitos alunos foram punidos de formas semelhantes a tortura, 
+ate os fantasmas estão na roda da humilhação frequente que dolores
+pratica sendo assim os Os estudantes, fantasmas e alguns professores 
+buscam maneiras de retirar dolores do cargo. 
+
+Já estamos no final do ano e os últimos movimentos dos grupos de 
+resistência  fracassaram, a esperança  de uma revolução para ter 
+enfim uma boa gestão e educação estão cada vez mais distante. 
+
+Entretanto temos mais uma chance.
+Quer participar dessa ultima luta? Esse sera nosso ultimo desafio.
+
+COMEÇAR_BUTAO
+
+PERGUNTAS_MURTA:
+• Murta precida distrair dolores no banheiro para que Luna consiga
+espalhar panfletos pelo colegio e videos, denunciando o comportamento
+de Dolores || para luna ir ate a floresta buscar o irmao de hagrid.
+
+trancar dolores na cabine do banheiro ou estourar um cano?
+-trancar no banheiro (true) - dolores se atrasa tentando abrir
+a cabine
+
+-estourar o cano (false) - dolores chama alguem para fazer manutenção
+e nao se atrasa 
+ 
+• Mesmo atrasando um pouco Dolores, Murta percebe que precisa fazer
+algo mais para atrasa-la. Murta precisa fazer mais alguma coisa:
+
+- trancar a porta do banheiro e esconder a varinha de dolores (true)
+
+- Começar uma conversa com Dolores (false) - Dolores se irrata e 
+grita com Murta que sai para chorar.
+
+• Dolores grita e pede ajuda, Murta aparece visivel
+- fica visivel e diz que vai ajudar e a faz se atrasar mais (true)
+
+
