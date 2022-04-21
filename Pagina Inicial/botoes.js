@@ -1,5 +1,5 @@
 function personagens() {
-    location.assign('../Personagens/pgum.html');
+    location.assign('./Personagens/pgum.html');
 }
 
 function inicio() {
