@@ -5,3 +5,7 @@ function personagens() {
 function inicio() {
     location.assign('../index.html');
 }
+
+function gameOver() {
+    location.assign('../Personagens/pgum.html');
+}
