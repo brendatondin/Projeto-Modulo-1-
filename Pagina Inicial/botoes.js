@@ -3,5 +3,5 @@ function personagens() {
 }
 
 function inicio() {
-    location.assign('./index.html');
+    location.assign('../index.html');
 }
