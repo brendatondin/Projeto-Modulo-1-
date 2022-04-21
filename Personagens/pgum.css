@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:"hP";
+    src: url("Crimes\ of\ Grindelwald.otf");
+} 
+
+body {
+    background-image: url('./High_resolution_wallpaper_background_ID_77700461447.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    color:#DDD4D5;
+    margin-top: 0.5em;
+    padding: 0.8em;
+    padding-bottom: 1em;
+    font-size: 70px;
+    font-family: hP;
+    letter-spacing: 0.03em;
+}
+
+h1:hover {
+    cursor: default;
+}
+
+section {
+    border-image: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* display: flex;
+    flex-direction: center;
+    justify-content: space-around; */
+}
+
+section:hover {
+    cursor: default;
+}
+
+.gif {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    padding: 20px;
+    border-radius: 30%;
+}
+
+.imgpersonagem {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.imgpersonagem:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+h3 {
+    color: #D0D6CF;
+    font-family: "hP";
+    letter-spacing: 0.1em;
+}
+
+a{
+    text-decoration: none;
+}

@@ -9,17 +9,23 @@
 } 
 
 body {
-    background-image: url(./hogwarts.jpg);
+    background-image: url(./vitoria\ img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 h1 {
     display: flex;
     flex-direction: center;
     justify-content: center;
-    color: black;
+    color:  #DDD4D5;
     margin-top: 0.5em;
-    padding: 0.5em;
-    font-size: 60px; 
+    font-size: 100px; 
     font-family: hP;
     letter-spacing: 0.03em;
 }
@@ -27,43 +33,33 @@ h1:hover{
     cursor: default;
 }
 
-section {
-    display: flex;
-    flex-direction: center;
-    justify-content: center;
-    color: black;
-    border: solid black 1px;
-    border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.700);
-    font-size: 1.02rem;
-    padding: 1em;
-    margin-right: 25em;
-    margin-left: 25em;
-    text-align: center;
-}
-section:hover{
-    cursor: default;
-}
-
 button {
     display: flex;
     flex-direction: center;
     justify-content: center;
+    color: #000B36;
     background-color: rgba(255, 255, 255, 0.700);
-    border: solid black 1px;
-    padding: 10px;
+    border: solid #000B36 1px;
+    padding: 14px;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
     border-radius: 10px;
-    margin-right: 45em;
-    margin-left: 45em;
+    margin-right: 50em;
+    margin-left: 50em;
     cursor: pointer;
 }
 
-button:hover {
+
+button:hover, a:hover {
     transform: scale(1.1);
     transition: all 0.3s;
-    color: white;
-    background-color: black;
+    color:#DDD4D5;
+    background-color: #629BC1;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+

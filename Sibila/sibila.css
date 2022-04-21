@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: lumos;
+    src: url("./LUMOS.TTF");
+}
+
+body {
+    background-image: url("../Personagens/High_resolution_wallpaper_background_ID_77700461447.jpg");
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: #0f2259c0;
+    color:  #DDD4D5;
+    padding: 2.5em;
+    gap: 2.5em;
+}  
+
+.lista {
+    text-align: left;
+    list-style: none;
+    font-size: 1.3em;
+}
+
+button {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    color:#000B36;
+    background-color: rgba(255, 255, 255, 0.700);
+    border: solid #000B36 1px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-right: 55em;
+    margin-left: 55em;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+    color:#DDD4D5;
+    background-color: #629BC1;
+}
