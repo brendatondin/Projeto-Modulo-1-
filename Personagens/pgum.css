@@ -61,9 +61,14 @@ section:hover {
     text-align: center;
 }
 
+@keyframes spin {
+    from { transform: rotateY(0deg);}
+    to { transform: rotateY(360deg);}
+}
 .imgpersonagem:hover {
-    transform: scale(1.1);
-    transition: all 0.3s;
+    /* transform: scale(1.1);
+    transition: all 0.3s; */
+    animation: spin 2s infinite;
 }
 
 h3 {
