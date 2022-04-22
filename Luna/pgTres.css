@@ -28,10 +28,10 @@ section {
     border-radius: 20px;
     /* background: rgba(255, 255, 255, 0.7); */
     background-color: #0f2259c0;
-    color:  #DDD4D5;
+    color: #DDD4D5;
     padding: 2.5em;
     gap: 2.5em;
-}  
+}
 
 .lista {
     text-align: left;
@@ -59,6 +59,6 @@ button {
 button:hover {
     transform: scale(1.1);
     transition: all 0.3s;
-    color:#DDD4D5;
+    color: #DDD4D5;
     background-color: #629BC1;
 }

@@ -27,10 +27,10 @@ section {
     justify-content: center;
     border-radius: 20px;
     background-color: #0f2259c0;
-    color:  #DDD4D5;
+    color: #DDD4D5;
     padding: 2.5em;
     gap: 2.5em;
-}  
+}
 
 .lista {
     text-align: left;
@@ -42,7 +42,7 @@ button {
     display: flex;
     flex-direction: center;
     justify-content: center;
-    color:#000B36;
+    color: #000B36;
     background-color: rgba(255, 255, 255, 0.700);
     border: solid #000B36 1px;
     padding: 10px;
@@ -58,6 +58,6 @@ button {
 button:hover {
     transform: scale(1.1);
     transition: all 0.3s;
-    color:#DDD4D5;
+    color: #DDD4D5;
     background-color: #629BC1;
 }

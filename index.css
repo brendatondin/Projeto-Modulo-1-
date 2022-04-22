@@ -3,10 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 @font-face {
-    font-family:"hP";
+    font-family: "hP";
     src: url("Crimes\ of\ Grindelwald.otf");
-} 
+}
 
 body {
     background-image: url(./hogwarts.jpg);
@@ -18,14 +19,15 @@ h1 {
     display: flex;
     flex-direction: center;
     justify-content: center;
-    color:#DDD4D5;
+    color: #DDD4D5;
     margin-top: 0.5em;
     padding: 0.5em;
-    font-size: 60px; 
+    font-size: 60px;
     font-family: hP;
     letter-spacing: 0.03em;
 }
-h1:hover{
+
+h1:hover {
     cursor: default;
 }
 
@@ -33,7 +35,7 @@ section {
     display: flex;
     flex-direction: center;
     justify-content: center;
-    color:  #DDD4D5;
+    color: #DDD4D5;
     border: solid black 1px;
     border-radius: 20px;
     /* background-color: white; */
@@ -46,7 +48,8 @@ section {
     margin-left: 25em;
     text-align: justify;
 }
-section:hover{
+
+section:hover {
     cursor: default;
 }
 
@@ -67,14 +70,10 @@ button {
     cursor: pointer;
 }
 
-button:hover, a:hover {
+button:hover,
+a:hover {
     transform: scale(1.1);
     transition: all 0.3s;
-    color:#DDD4D5;
+    color: #DDD4D5;
     background-color: #0f2259c0;
-}
-
-a{
-    text-decoration: none;
-    color: black;
 }
